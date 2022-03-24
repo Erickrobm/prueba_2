@@ -16,3 +16,8 @@ def get_fractions(frac_str):
         return whole - frac if whole < 0 else whole + frac
   else:
     return float(frac_str)
+
+def suma(a, b):
+  sumando_a = get_fractions(a)
+  sumando_b = get_fractions(b)
+  return sumando_a + sumando_b
