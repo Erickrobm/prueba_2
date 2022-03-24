@@ -17,7 +17,14 @@ def get_fractions(frac_str):
   else:
     return float(frac_str)
 
+
 def suma(a, b):
   sumando_a = get_fractions(a)
   sumando_b = get_fractions(b)
   return sumando_a + sumando_b
+
+def multiplica(a, b):
+  multiplicando = get_fractions(a)
+  multiplicador = get_fractions(b)
+  return multiplicando * multiplicador
+
