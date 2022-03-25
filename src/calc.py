@@ -1,5 +1,5 @@
 def get_fractions(frac_str):
-    """
+  """
     Funcion "get_fractions" cuya finalidad es convertir un numero en formato "str" a "float".
     tambien, ubica espacialmente los "/" si la variable "frac_str" es fraccion y almacena un numero en formato "str".  
 
@@ -32,7 +32,7 @@ def get_fractions(frac_str):
     return float(frac_str)
 
 def suma(a, b):
-    """
+  """
     Funcion que permite la suma de dos numeros reales.
 
     Parameters
@@ -51,7 +51,7 @@ def suma(a, b):
   return sumando_a + sumando_b
 
 def multiplica(a, b):
-    """
+  """
     Funcion que realiza el producto de dos numeros reales.
 
     Parameters
